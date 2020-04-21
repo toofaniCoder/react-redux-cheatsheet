@@ -24,8 +24,8 @@ export default store;
 ```
 const GET_TODOS = "GET_TODOS";
 const GET_TODO = "GET_TODO";
-const CREATE_TODOS = "CREATE_TODOS";
-const UPDATE_TODOS = "UPDATE_TODOS";
-const DELETE_TODOS = "DELETE_TODOS";
+const CREATE_TODO = "CREATE_TODO";
+const UPDATE_TODO = "UPDATE_TODO";
+const DELETE_TODO = "DELETE_TODO";
 ```
 
