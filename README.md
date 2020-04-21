@@ -49,3 +49,20 @@ export default (state = initialState, { type, payload }) => {
 }
 
 ```
+
+## todoAction.js
+
+```
+import {GET_TODOS, GET_TODO, CREATE_TODO, UPDATE_TODO, DELETE_TODO} from "types";
+import axios from "axios";
+
+// get all todos
+export const getAllTodos = () => async dispatch => {
+    const result = await axios.get(route);
+    dispatch({
+        type: "GET_TODOS",
+        payload: res.data
+    })
+}
+
+```
